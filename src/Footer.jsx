@@ -1,10 +1,10 @@
-
 import React from "react"
+import './css/footer.css'
 
 const Footer = () => {
         return (
             <footer>
-                <h1>Made with React</h1>
+                <div className="f-title">Made with React</div>
             </footer>
         )
 

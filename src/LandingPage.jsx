@@ -1,8 +1,9 @@
 import React from "react"
+import './css/landingpage.css'
 
 const LandingPage = () => {
         return (
-            <div>Hello World</div>  
+            <div className="lp-title">Hello World</div>  
         )
 }
 
