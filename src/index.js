@@ -1,8 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import LandingPage from "./LandingPage"
 
-const HelloWorld = () => {
-    return <h2>Hello World</h2>
+const App = () => {
+    return <LandingPage />
 };
 
-ReactDOM.render(<HelloWorld />, document.getElementById("app"))
+ReactDOM.render(<App />, document.getElementById("app"))
