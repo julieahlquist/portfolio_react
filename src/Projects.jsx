@@ -1,21 +1,22 @@
 import React, { Component } from "react"
 import './css/project.css'
+import axios from "axios"
 
 class Projects extends Component {
 	constructor() {
-		super();
-			this.state = {
-				projects: [
-										{
-											"id": 1,
-											"name": "My First Website"
-										},
-										{
-											"id": 2,
-											"name": "FizzBuzz"
-										}
-									]
-			};
+    super();
+    this.state = {
+        projects: [ ]
+    };
+	}
+
+	componentDidMount() {
+    axios.get('./src/data/projects.json')
+      .then(response => {
+        this.setState({
+          projects: response.data
+        })
+      })
 	}
 
 	render() {
