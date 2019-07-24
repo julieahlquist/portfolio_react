@@ -17,8 +17,8 @@ const App = () => {
             <div className="ab-container">
                 <Switch>
                     <Route exact path='/' component={LandingPage} />
-                    <Route path='/about' component={About} />
-                    <Route path='/projects' component={Projects} />
+                    <Route exact path='/about' component={About} />
+                    <Route exact path='/projects' component={Projects} />
                 </Switch>
             </div>
             <Footer />
