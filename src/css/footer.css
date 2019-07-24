@@ -1,13 +1,25 @@
-footer {
-    position:absolute;
+.footer-container {
+    background-color: rgb(122, 121, 120);
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
     left:0;
-    bottom:0;
+    bottom: 0;
     right:0;
-    background-color: antiquewhite;
 }
-.f-flexbox {
-    flex-shrink: 0;
+.nav-title {
+    color: white;
+    flex-grow: none;
+    padding: 100px;
+    text-decoration: none; 
 }
-.f-title {
-    color: palevioletred;
+.nav-item {
+    color: white;
+    flex-grow: none;
+    padding: 100px;
+    padding-top: 10px;
+    text-decoration: none;
 }

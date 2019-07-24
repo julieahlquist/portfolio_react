@@ -1,21 +1,13 @@
-.header-container {
-    background-color: rgb(122, 121, 120);
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
+header {
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    background-color: black;
 }
-.nav-title {
-    color: white;
-    flex-grow: none;
-    padding: 100px;
-    text-decoration: none; 
+.f-flexbox {
+    flex-shrink: 0;
 }
-.nav-item {
-    color: white;
-    flex-grow: none;
-    padding: 100px;
-    padding-top: 10px;
-    text-decoration: none;
+.f-title {
+    color: palevioletred;
 }
