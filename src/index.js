@@ -12,9 +12,9 @@ import './css/index.css'
 const App = () => {
   return (
     <div className="page-wrapper">
-        <div className="page-content">
+        <div className="header-container">
             <Header />
-            <div className="content-wrapper">
+            <div className="ab-container">
                 <Switch>
                     <Route exact path='/' component={LandingPage}></Route>
                     <Route exact path='/about' component={About}></Route>

@@ -1,0 +1,16 @@
+.pr-title {
+    color: white;
+    flex-grow: none;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.pr-text {
+    color: white;
+    flex-grow: none;
+    padding: 100px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: justify;
+}

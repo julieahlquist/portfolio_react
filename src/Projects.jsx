@@ -1,10 +1,11 @@
 import React from "react"
+import './css/project.css'
 
 const Projects = () => {
     return (
         <div>
-            <h1 className="content-text">My Projects</h1>
-            <p className="content-text">Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
+            <h1 className="pr-title">My Projects</h1>
+            <p className="pr-text">Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
         </div>
     )
 };

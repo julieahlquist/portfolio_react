@@ -16,5 +16,6 @@
     color: white;
     flex-grow: none;
     padding: 100px;
-    text-decoration: none; 
+    padding-top: 10px;
+    text-decoration: none;
 }
