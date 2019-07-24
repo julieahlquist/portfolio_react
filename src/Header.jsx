@@ -5,16 +5,16 @@ import './css/header.css'
 
 const Header = () => {
   return (
-    <nav className="header">
+    <nav className="header-container">
       <h1 className="header-title">
-        <Link className="text-white hover:text-grey no-underline" to='/'>My Portfolio</Link>
+        <Link className="nav-title" to='/'>My Portfolio</Link>
       </h1>
-      <ul className="list-reset flex">
-        <li className="mr-6"><NavLink className="text-white hover:text-grey no-underline" activeStyle={{fontWeight: "bold"}} to='/about'>About Me</NavLink></li>
-        <li className="mr-6"><NavLink className="text-white hover:text-grey no-underline" activeStyle={{fontWeight: "bold"}} to='/projects'>My Projects</NavLink></li>
-      </ul>
+      <div className="list-reset flex">
+        <NavLink className="nav-item" to='/about'>About</NavLink>
+        <NavLink className="nav-item" to='/projects'>Projects</NavLink>
+      </div>
     </nav>
-        ) 
+  ) 
 }
 
 export default Header
