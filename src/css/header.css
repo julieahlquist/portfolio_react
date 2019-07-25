@@ -3,7 +3,7 @@ header {
     left:0;
     top:0;
     right:0;
-    background-color: black;
+    background-color:  rgb(31, 31, 31);
 }
 .he-flexbox {
     flex-shrink: 0;
