@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 
+    justify-content: center;
     padding-bottom: 130px;
 }
 .pr-title {
@@ -15,10 +16,18 @@
 .pr-text {
     color: white;
     flex-grow: none;
-    padding: 10px;
+    padding: 100px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: justify;
+}
+.prc-text {
+    color: white;
+    flex-grow: none;
     padding-bottom: 10px;
     padding-top: 10px;
     text-decoration: none;
+    text-align: justify;
 }
 .pr-card {
     height: 150px;

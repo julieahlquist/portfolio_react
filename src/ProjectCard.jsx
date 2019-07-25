@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
 
             <div className="pr-card" style={{ minHeight: '150px' }} >
                 <div className="pr-title">{project.name}
-                <p className="pr-text">
+                <p className="prc-text">
                     {project.description}
                 </p>
             <button className="pr-button">
