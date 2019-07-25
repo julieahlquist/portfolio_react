@@ -37,15 +37,15 @@ class Projects extends Component {
 		return (
 			<div>
 				<div className="pr-description-container">
-				<h1 className="pr-title">My Projects</h1>
-					<p className="pr-text">
+				<div className="pr-title">My Projects</div>
+					<div className="pr-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Mollitia temporibus, suscipit vero, tempore voluptatem assumenda 
             odio ipsam dignissimos exercitationem dicta possimus, quod nemo 
             aliquid minima tempora itaque labore porro rem. Lorem ipsum dolor 
             sit amet consectetur adipisicing elit. Eius eaque eligendi natus 
             corrupti quibusdam voluptate dolorem autem magnam. Possimus est 
-            quia cumque eos quae earum a! Inventore soluta iste laborum?</p>
+            quia cumque eos quae earum a! Inventore soluta iste laborum?</div>
 						</div>
 						<div className="pr-list-container">
 							{projectsList}

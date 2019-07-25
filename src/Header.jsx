@@ -6,9 +6,9 @@ import { NavLink, Link } from 'react-router-dom';
 const Header = () => {
 	return (
 	<nav className="header-container">
-		<h1 className="he-title">
+		<div className="he-title">
 			<Link className="he-title" to='/'>My Portfolio</Link>
-		</h1>
+		</div>
 	</nav>
 	)
 }
