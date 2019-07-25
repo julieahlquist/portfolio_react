@@ -13,11 +13,23 @@
     text-decoration: none;
     text-align: center;
 }
+.prc-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-shadow:
+        1px  1px 2px black;
+    flex-grow: none;
+    padding-top: 30px;
+    padding-bottom: px;
+    text-decoration: none;
+    text-align: center;
+}
 .pr-text {
     color: white;
     flex-grow: none;
-    padding: 100px;
-    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-decoration: none;
     text-align: justify;
 }
@@ -27,15 +39,15 @@
     padding-bottom: 10px;
     padding-top: 10px;
     text-decoration: none;
-    text-align: justify;
+    text-align: center;
 }
 .pr-card {
     height: 150px;
-    width: 150px;
+    width: 200px;
     background-color: darkgray;
     padding: 30px;
-    margin: 30px;
+    margin: 20px;
 }
 .pr-button {
-    background-color: green; 
+    background-color: green;
 }
