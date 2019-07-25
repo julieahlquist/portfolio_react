@@ -25,6 +25,9 @@
     text-decoration: none;
     text-align: center;
 }
+a:link {
+    text-decoration: none;
+}
 .pr-text {
     color: white;
     flex-grow: none;
@@ -47,7 +50,4 @@
     background-color: darkgray;
     padding: 30px;
     margin: 20px;
-}
-.pr-button {
-    background-color: green;
 }

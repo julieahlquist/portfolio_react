@@ -5,15 +5,11 @@ const ProjectCard = (props) => {
     let project = props.project
     return (
         <div key={project.id} className="pr-id">
-
-            <div className="pr-card" style={{ minHeight: '150px' }} >
-                <div className="prc-title">{project.name}</div>
+        <div className="pr-card" style={{ minHeight: '150px' }} >
+            <a href={project.website}><div className="prc-title">{project.name}</div></a>
                 <p className="prc-text">
                     {project.description}
                 </p>
-            <button className="pr-button">
-                Link
-            </button>
             </div>
         </div>
     )

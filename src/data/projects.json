@@ -2,21 +2,25 @@
     {
         "id": 1,
         "name": "First Website",
-        "description": "First project"
+        "description": "First project",
+        "website": "fix"
     },
     {
         "id": 2,
         "name": "FizzBuzz",
-        "description": "second project"
+        "description": "second project",
+        "website": "https://focused-easley-c2fd5b.netlify.com/"
     },
     {
         "id": 3,
         "name": "RPS",
-        "description": "third project"
+        "description": "third project",
+        "website": "fix"
     },
     {
         "id": 4,
         "name": "Soon",
-        "description": "fourth project"
+        "description": "fourth project",
+        "website": "fix"
     }
 ]
