@@ -6,6 +6,7 @@
     padding-bottom: 130px;
 }
 .pr-title {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     flex-grow: none;
     padding-top: 70px;
@@ -14,7 +15,7 @@
     text-align: center;
 }
 .prc-title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     color: white;
     text-shadow:
@@ -29,20 +30,24 @@ a:link {
     text-decoration: none;
 }
 .pr-text {
+    font-family: 'Raleway', sans-serif;
     color: white;
     flex-grow: none;
     padding-left: 100px;
     padding-right: 100px;
     text-decoration: none;
     text-align: justify;
+    font-weight: lighter;
 }
 .prc-text {
+    font-family: 'Raleway', sans-serif;
     color: white;
     flex-grow: none;
     padding-bottom: 10px;
     padding-top: 10px;
     text-decoration: none;
     text-align: center;
+    font-weight: thin;
 }
 .pr-card {
     height: 150px;
