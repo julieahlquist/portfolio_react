@@ -1,3 +1,9 @@
+.pr-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    padding-bottom: 130px;
+}
 .pr-title {
     color: white;
     flex-grow: none;
@@ -9,9 +15,18 @@
 .pr-text {
     color: white;
     flex-grow: none;
-    padding: 100px;
+    padding: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
     text-decoration: none;
-    text-align: justify;
+}
+.pr-card {
+    height: 150px;
+    width: 150px;
+    background-color: darkgray;
+    padding: 30px;
+    margin: 30px;
+}
+.pr-button {
+    background-color: green; 
 }

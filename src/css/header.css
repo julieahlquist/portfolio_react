@@ -5,9 +5,10 @@ header {
     right:0;
     background-color: black;
 }
-.f-flexbox {
+.he-flexbox {
     flex-shrink: 0;
 }
-.f-title {
-    color: palevioletred;
+.he-title {
+    color: white;
+    text-decoration: none;
 }

@@ -1,10 +1,22 @@
 [
     {
         "id": 1,
-        "name": "My First Website"
+        "name": "My First Website",
+        "description": "First project"
     },
     {
         "id": 2,
-        "name": "FizzBuzz"
+        "name": "FizzBuzz",
+        "description": "second project"
+    },
+    {
+        "id": 3,
+        "name": "RPS",
+        "description": "third project"
+    },
+    {
+        "id": 4,
+        "name": "Soon",
+        "description": "fourth project"
     }
 ]

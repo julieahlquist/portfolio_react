@@ -1,15 +1,15 @@
 .footer-container {
-    background-color: rgb(122, 121, 120);
+    background-color: gray;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left:0;
+    position: fixed;
+    left: 0;
     bottom: 0;
-    right:0;
+    width: 100%;
 }
 .nav-item {
     color: white;

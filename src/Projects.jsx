@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import './css/project.css'
 import axios from "axios"
+import ProjectCard from "./ProjectCard"
 
 class Projects extends Component {
 	constructor() {
@@ -24,19 +25,18 @@ class Projects extends Component {
 		let projectsList 
 
 		if (projects.length > 0) {
-			projectsList = projects.map(project => {
-				return (
-					<div key={project.id}>
-						<div className="pr-title">
-							{project.name}
-						</div>
-					</div>
-				)
-			})
-		}
+      projectsList = projects.map(project => {
+          return (
+              <div key={project.id} className="pr-id">
+                  <ProjectCard project={project} />
+              </div>
+          )
+      })
+  }
 
 		return (
 			<div>
+				<div className="pr-description-container">
 				<h1 className="pr-title">My Projects</h1>
 					<p className="pr-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -46,7 +46,10 @@ class Projects extends Component {
             sit amet consectetur adipisicing elit. Eius eaque eligendi natus 
             corrupti quibusdam voluptate dolorem autem magnam. Possimus est 
             quia cumque eos quae earum a! Inventore soluta iste laborum?</p>
+						</div>
+						<div className="pr-list-container">
 							{projectsList}
+						</div>
 			</div>
 		)
 	}
