@@ -1,6 +1,6 @@
 header {
     position:absolute;
-    background-color: rgb(31, 31, 31);
+    background-color: #5D2736;
 }
 .he-flexbox {
     flex-shrink: 0;
@@ -8,5 +8,5 @@ header {
 .he-title {
     color: white;
     text-decoration: none;
-    background-color:  rgb(31, 31, 31);
+    background-color:  #5D2736;
 }

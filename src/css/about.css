@@ -1,8 +1,8 @@
 body, html {
-    background-color: rgb(31, 31, 31);
+    background-color: #5D2736;
 }
 .ab-title {
-    background-color: rgb(31, 31, 31);
+    background-color: #5D2736;
     color: white;
     flex-grow: none;
     padding-top: 70px;
@@ -11,7 +11,7 @@ body, html {
     text-align: center;
 }
 .ab-text {
-    background-color: rgb(31, 31, 31);
+    background-color: #5D2736;
     color: white;
     flex-grow: none;
     padding: 100px;

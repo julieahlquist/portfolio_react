@@ -1,8 +1,8 @@
 .pr-description-container {
-    background-color: rgb(31, 31, 31);
+    background-color: #5D2736;
 }
 .pr-list-container {
-    background-color: rgb(31, 31, 31);
+    background-color: #5D2736;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 

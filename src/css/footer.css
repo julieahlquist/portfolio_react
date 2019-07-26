@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: rgb(31, 31, 31);;
+    background-color: #5D2736;
     opacity: 0.8;
     height: 100px;
     display: flex;
@@ -11,7 +11,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -5px 15px -5px  rgb(31, 31, 31);;
+    box-shadow: 0 -5px 15px -5px  #5D2736;
 }
 .nav-item {
     font-family: 'Raleway', sans-serif;
