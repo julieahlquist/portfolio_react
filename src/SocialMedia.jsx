@@ -1,30 +1,31 @@
 import React from 'react'
 import './css/socialmedia.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SocialMedia = () => {
 	return (
 		<ul>
   		<li>
     		<a href="#">
-				<FontAwesomeIcon icon="coffee" />
+				<FontAwesomeIcon icon={['fab', 'github']} />
       		<span> - Github</span>
     		</a>
   		</li>
   		<li>
     		<a href="#">
-      		<i className="fa fa-linkedin" aria-hidden="true"></i>
+				<FontAwesomeIcon icon={['fab', 'linkedin-in']} />
       		<span> - Linkedin</span>
     		</a>
   		</li>
   		<li>
     		<a href="#">
-      		<i className="fa fa-instagram" aria-hidden="true"></i>
+				<FontAwesomeIcon icon={['fab', 'instagram']} />
       		<span> - Instagram</span>
     		</a>
   		</li>  
 			<li>
     		<a href="#">
-      		<i className="fa fa-facebook" aria-hidden="true"></i>
+				<FontAwesomeIcon icon={['fab', 'facebook-f']} />
       		<span> - Facebook</span>
   			</a>
   		</li>

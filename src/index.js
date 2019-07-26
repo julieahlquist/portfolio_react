@@ -9,6 +9,10 @@ import About from './About'
 import { Switch, Route } from 'react-router-dom'
 import './css/index.css'
 import SocialMedia from './SocialMedia'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab);
 
 const App = () => {
   return (
