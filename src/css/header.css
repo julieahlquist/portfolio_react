@@ -9,7 +9,10 @@ header {
     font-family: 'Sacramento', cursive;
     font-weight: 100;
     font-size: 40px;
-    color: white;
+    text-shadow: 1px 10px 5px #351c1c;
+    color:#9c9b9b;
     text-decoration: none;
     background-color:  #5D2736;
+    padding-left: 15px;
+    padding-top: 7px;
 }
