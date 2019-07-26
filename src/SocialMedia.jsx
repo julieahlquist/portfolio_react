@@ -6,7 +6,7 @@ const SocialMedia = () => {
 		<ul>
   		<li>
     		<a href="#">
-      		<i className="fa fa-github" aria-hidden="true"></i>
+				<FontAwesomeIcon icon="coffee" />
       		<span> - Github</span>
     		</a>
   		</li>
