@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 	<nav className="header-container">
 		<div className="he-title">
-			<Link className="he-title" to='/'>My Portfolio</Link>
+			<Link className="he-title" to='/'>Julie Ahlquist</Link>
 		</div>
 	</nav>
 	)

@@ -6,6 +6,9 @@ header {
     flex-shrink: 0;
 }
 .he-title {
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+    font-size: 40px;
     color: white;
     text-decoration: none;
     background-color:  #5D2736;
