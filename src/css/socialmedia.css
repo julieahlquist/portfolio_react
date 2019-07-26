@@ -15,7 +15,7 @@ ul {
 }
 ul li {
     list-style:none;
-    margin:0 5px;
+    margin:0px;
 }
 ul li a .fa {
     font-size: 20px;
@@ -42,7 +42,7 @@ ul li a {
     background: #fff;
     text-align:left;
     padding-left: 20px;
-    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transform: rotate(-7deg) skew(25deg) translate(0,0);
     transition:.5s;
     box-shadow: -20px 20px 10px rgba(0,0,0,.5);
 }
@@ -50,9 +50,9 @@ ul li a:before {
     content: '';
     position: absolute;
     top:7.5px;
-    left:-13px;
+    left:-12px;
     height:100%;
-    width:13px;
+    width:12px;
     background: #b1b1b1;
     transform: .5s;
     transform: rotate(0deg) skewY(-45deg);
@@ -69,7 +69,7 @@ ul li a:after {
     transform: rotate(0deg) skewX(-45deg);
 }
 ul li a:hover {
-    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    transform: rotate(-7deg) skew(25deg) translate(20px,-15px);
     box-shadow: -50px 50px 50px black;
 }
 ul li:hover .fa {
@@ -88,22 +88,22 @@ ul li:hover:nth-child(1) a:after{
     background: #7e8186;
 }
 ul li:hover:nth-child(2) a{
-    background: #00aced;
+    background: #0077b5;
 }
 ul li:hover:nth-child(2) a:before{
-    background: #097aa5;
+    background: #015c8d;
 }
 ul li:hover:nth-child(2) a:after{
-    background: #53b9e0;
+    background: #018dd8;
 }
 ul li:hover:nth-child(3) a{
-    background: #e4405f;
+    background: #e83e8c;
 }
 ul li:hover:nth-child(3) a:before{
-    background: #d81c3f;
+    background: #c43c7c;
 }
 ul li:hover:nth-child(3) a:after{
-    background: #e46880;
+    background: #f7529f;
 }
 ul li:hover:nth-child(4) a{
     background: #3b5998;
