@@ -2,10 +2,16 @@ body, html {
     background-color: #5D2736;
     color: rgb(179, 178, 178);
 }
+#ab-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #5D2736;
+}
 .ab-title {
     background-color: #5D2736;
     font-family: 'Montserrat', sans-serif;
-    flex-grow: none;
     padding-top: 70px;
     padding-bottom: 30px;
     text-decoration: none;
@@ -14,10 +20,8 @@ body, html {
 .ab-text {
     background-color: #5D2736;
     font-family: 'Raleway', sans-serif;
-    flex-grow: none;
-    padding-left: 300px;
-    padding-right: 300px;
     padding-top: 10px;
+    width: 500px;
     text-decoration: none;
     text-align: center;
     font-weight: lighter;
