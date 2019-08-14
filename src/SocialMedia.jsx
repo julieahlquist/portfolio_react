@@ -6,25 +6,25 @@ const SocialMedia = () => {
 	return (
 		<ul>
   		<li>
-    		<a href="#">
+    		<a href="https://github.com/julieahlquist">
 				<FontAwesomeIcon icon={['fab', 'github']} />
       		<span> - Github</span>
     		</a>
   		</li>
   		<li>
-    		<a href="#">
+    		<a href="https://www.linkedin.com/in/julieahlquist/">
 				<FontAwesomeIcon icon={['fab', 'linkedin-in']} />
       		<span> - Linkedin</span>
     		</a>
   		</li>
   		<li>
-    		<a href="#">
+    		<a href="https://www.instagram.com/julieahlquist/?hl=sv">
 				<FontAwesomeIcon icon={['fab', 'instagram']} />
       		<span> - Instagram</span>
     		</a>
   		</li>  
 			<li>
-    		<a href="#">
+    		<a href="https://www.facebook.com/julie.ahlquist">
 				<FontAwesomeIcon icon={['fab', 'facebook-f']} />
       		<span> - Facebook</span>
   			</a>
