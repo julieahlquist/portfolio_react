@@ -1,6 +1,9 @@
 header {
-    position:absolute;
+    position: absolute;
     background-color: #5D2736;
+}
+.header-container {
+    height: 100px;
 }
 .he-flexbox {
     flex-shrink: 0;

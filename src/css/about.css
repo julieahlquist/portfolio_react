@@ -2,12 +2,13 @@ body, html {
     background-color: #5D2736;
     color: rgb(179, 178, 178);
 }
-#ab-container {
+.ab-container {
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     background-color: #5D2736;
+    position: relative;
 }
 .ab-title {
     background-color: #5D2736;
@@ -25,4 +26,12 @@ body, html {
     text-decoration: none;
     text-align: center;
     font-weight: lighter;
+}
+#ab-second {
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 140px;
+}
+#sm-item {
+    align-self: bottom;
 }
