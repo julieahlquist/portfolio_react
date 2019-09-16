@@ -1,18 +1,18 @@
-import React, { Component } from "react"
-import './css/about.css'
-import SocialMedia from './SocialMedia'
+import React, { Component } from "react";
+import "./css/about.css";
+import SocialMedia from "./SocialMedia";
 
 class About extends Component {
   constructor(props) {
     super(props);
     this.state = {
       socialmedia: true
-    }
-  }
+    };
+  };
 
   render () {
 	  return (
-      <div>
+      <>
         <div className="ab-container">
           <div className="ab-title">About Me</div>
         <div className="ab-text">
@@ -31,9 +31,9 @@ class About extends Component {
             <SocialMedia />
           </div>
         </div>
-      </div>
+      </>
     )
-  }
-}
+  };
+};
 
-export default About
+export default About;

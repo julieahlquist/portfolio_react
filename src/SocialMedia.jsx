@@ -1,6 +1,6 @@
-import React from 'react'
-import './css/socialmedia.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from "react";
+import "./css/socialmedia.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SocialMedia = () => {
 	return (
@@ -31,6 +31,6 @@ const SocialMedia = () => {
   		</li>
 		</ul>
 	)
-}
+};
 
-export default SocialMedia
+export default SocialMedia;
